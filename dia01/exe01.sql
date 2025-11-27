@@ -24,19 +24,14 @@ VALUES
 -- 4_ Um SELECT que retorne todes os colaboradores com o salário maior do que 2000.
 SELECT * FROM tb_colaborador WHERE salario > 2000.00;
 
--- 5_ Um SELECT que retorne todes os colaboradores com o salário maior do que 2000.
+-- 5_ Um SELECT que retorne todes os colaboradores com o salário menor do que 2000.
 SELECT * FROM tb_colaborador WHERE salario < 2000.00;
 
 -- 6_ atualização do registro desta tabela (aumenta de 500.00 no salario dos colaboradores) 
-UPDATE tb_colaborador SET salario = salario + 500.00 ;
 SET SQL_SAFE_UPDATES = 0; 
+UPDATE tb_colaborador SET salario = salario + 500.00 ;
+
 
 -- Ordenar por salário (menor para maior)
 
 SELECT * FROM tb_colaborador ORDER BY salario ASC;
-
-
-
-
-
-
