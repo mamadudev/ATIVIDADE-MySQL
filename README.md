@@ -7,6 +7,7 @@ Cada exercício foi desenvolvido em um próprio script SQL, seguindo as orienta�
 
 📌 Estrutura do Repositório
 /exercicios-mysql
+
 │
 ├── exe01.sql
 ├── exe02.sql
