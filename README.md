@@ -1,87 +1,113 @@
-Atividade Prática – MySQL
+# 🗂️ Atividades Práticas – MySQL
 
 Banco de Dados Relacional · Generation Brasil
 
-Este repositório contém a solução das três atividades práticas de Banco de Dados Relacional utilizando MySQL e MySQL Workbench.
-Cada exercício foi desenvolvido em um próprio script SQL, seguindo as orientações da atividade.
+Este repositório reúne **todas as atividades práticas de Banco de Dados Relacional**, incluindo os três primeiros exercícios e as três atividades mais recentes criadas em aula.
 
-📌 Estrutura do Repositório
-/exercicios-mysql
+Cada exercício possui seu próprio script `.sql`, com bancos, tabelas, inserts e consultas.
 
-│
-├── exe01.sql
-├── exe02.sql
-└── exe03.sql
+---
 
+## 🔹 ATIVIDADES INICIAIS
 
-Cada arquivo contém todas as queries solicitadas no respectivo exercício, organizadas em ordem lógica.
+---
 
-📘 ATIVIDADE 01 – Sistema de RH
+## 🎒 ATIVIDADE 01 – Sistema de RH
+
 ✔️ Objetivos:
 
-Criar um banco de dados para um serviço de RH.
+* Criar banco de dados para RH
+* Criar tabela `tb_colaborador`
+* Inserir no mínimo 5 registros
+* SELECT de salários > 2000
+* SELECT de salários < 2000
+* UPDATE de um registro
 
-Criar uma tabela tb_colaborador com pelo menos 5 atributos relevantes.
+📄 Arquivo: **[exe01.sql](https://github.com/mamadudev/ATIVIDADE-MySQL/blob/exe03/dia01/exe01.sql)**
 
-Inserir mínimo 5 registros.
+---
 
-SELECT de colaboradores com salário maior que 2000.
+## 🛒 ATIVIDADE 02 – E-commerce
 
-SELECT de colaboradores com salário menor que 2000.
-
-UPDATE de um registro.
-
-📄 Entrega:
-
-Todo o conteúdo da atividade 01 está no arquivo:
-exe01.sql
-
-🛒 ATIVIDADE 02 – E-commerce
 ✔️ Objetivos:
 
-Criar um banco de dados para um e-commerce.
+* Criar banco de dados para loja virtual
+* Criar tabela `tb_produto`
+* Inserir mínimo 8 registros
+* SELECT com valor > 500
+* SELECT com valor < 500
+* UPDATE de um registro
 
-Criar tabela tb_produto com pelo menos 5 atributos relevantes.
+📄 Arquivo: **[exe02.sql](https://github.com/mamadudev/ATIVIDADE-MySQL/blob/exe03/dia01/exe02.sql)**
 
-Inserir mínimo 8 registros.
+---
 
-SELECT de produtos com valor maior que 500.
+## 🏫 ATIVIDADE 03 – Registro Escolar
 
-SELECT de produtos com valor menor que 500.
-
-UPDATE de um registro.
-
-📄 Entrega:
-
-Todo o conteúdo da atividade 02 está no arquivo:
-exe02.sql
-
-🎒 ATIVIDADE 03 – Registro Escolar
 ✔️ Objetivos:
 
-Criar um banco de dados para uma escola.
+* Criar banco de dados para escola
+* Criar tabela `tb_estudante`
+* Inserir mínimo 8 registros
+* SELECT nota > 7
+* SELECT nota < 7
+* UPDATE de um registro
 
-Criar tabela tb_estudante com pelo menos 5 atributos relevantes.
+📄 Arquivo: **[exe03.sql](https://github.com/mamadudev/ATIVIDADE-MySQL/blob/exe03/dia01/exe03.sql)**
 
-Inserir mínimo 8 registros.
+---
 
-SELECT de estudantes com nota maior que 7.0.
+## 🔹 ATIVIDADES NOVAS
 
-SELECT de estudantes com nota menor que 7.0.
+---
 
-UPDATE de um registro.
+## 🎮 ATIVIDADE 04 – Generation Game Online
 
-📄 Entrega:
+✔️ Objetivos:
 
-Todo o conteúdo da atividade 03 está no arquivo:
-exe03.sql
+* Criar tabelas `tb_personagens` e `tb_classes`
+* Criar relacionamento por chave estrangeira
+* Inserir registros
+* SELECT com filtros, intervalo, LIKE e JOINs
 
-🚀 Como Executar
+📄 Arquivo: **[db_generation_game_online.sql](https://github.com/mamadudev/ATIVIDADE-MySQL/commit/eb3cdda3a0d69a578075ab6dcfa8e2932394d67a)**
 
-Abra o MySQL Workbench
+---
 
-Importe ou abra qualquer um dos scripts .sql
+## 💊 ATIVIDADE 05 – Farmácia Bem Estar
 
-Execute as queries na ordem apresentada
+✔️ Objetivos:
 
-Os bancos, tabelas, inserts e consultas serão criados automaticamente
+* Criar tabelas `tb_produtos` e `tb_categorias`
+* Criar relacionamento por chave estrangeira
+* Inserir registros completos
+* SELECT valor > 100
+* SELECT intervalo 70–150
+* SELECT LIKE
+* INNER JOIN entre tabelas
+
+📄 Arquivo: **[db_farmacia_bem_estar.sql](https://github.com/mamadudev/ATIVIDADE-MySQL/commit/ad13a5c9a8d3a7c31e51586c8deb8eba81378472)**
+
+---
+
+## 🧱 ATIVIDADE 06 – Construindo Vidas (Materiais de Construção)
+
+✔️ Objetivos:
+
+* Banco de dados da loja de materiais
+* Tabelas `tb_produtos` e `tb_categorias`
+* Relação FK
+* 5 registros na categoria
+* 8 registros no produto
+* SELECTs com filtros e JOIN por categoria
+
+📄 Arquivo: **[db_construindo_vidas.sql](https://github.com/mamadudev/ATIVIDADE-MySQL/commit/83ccf12c9cd660950116c117bcab643235f41f9c)**
+
+---
+
+## 🚀 Como Executar
+
+1. Abra o MySQL Workbench
+2. Carregue qualquer arquivo `.sql`
+3. Execute as queries na ordem
+4. O banco, tabelas e consultas serão gerados automaticamente
